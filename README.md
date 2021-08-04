@@ -1,6 +1,4 @@
 # HOSTEL-MANAGEMENT-SYSTEM
-Simple in front-end and fully covered in backend
-
 
 
 **INTRODUCTION :-**
@@ -34,7 +32,7 @@ ENTITY NAMES	hostel_furniture
 ATTRIBUTES	| DATA TYPE	| SIZE |	PRIMARY KEY |	FOREIGN KEY
 --- | --- | --- | --- | --- 
 Furniture_type	| text |	20	| 		
-Furniture_id	| varchar	 |20 |		|Yes	
+Furniture_id	| varchar	 |20 |		Yes	
 Room_id |	varchar|	20|	 |Room_entry.room_id
 
 

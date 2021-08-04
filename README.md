@@ -11,9 +11,13 @@
 **SOFTWARE USED :-**
 
 **OPERATING SYSTEM**    |	WINDOWS 10 
+--- | ---
 **FRONT-END LANGUAGE**  |	HTML, CSS, JAVASCRIPT
+--- | ---
 **BACK-END LANGUAGE**   |	PHP, SQL
+--- | ---
 **DATABASE SERVER**	| MYSQL
+--- | ---
 **DATABASE TOOL**   	| PHPMYADMIN
 
 **TABLES :-**

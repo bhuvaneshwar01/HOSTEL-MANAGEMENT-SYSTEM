@@ -35,60 +35,66 @@ ATTRIBUTES	| DATA TYPE	| SIZE |	PRIMARY KEY |	FOREIGN KEY
 --- | --- | --- | --- | --- 
 Furniture_type	| text |	20	| 		
 Furniture_id	| varchar	 |20 |		|Yes	
-Room_id |	varchar|	20|			| |Room_entry.room_id
+Room_id |	varchar|	20|	 |Room_entry.room_id
 
 
 
 ENTITY NAMES	Mess_entry
-ATTRIBUTES	DATA TYPE	SIZE	NULL	PRIMARY KEY	FOREIGN KEY
-Memp_name	Text 	20	No		
-Memp_id	Varchar 	50	No	Yes	
-Ph_no	Int	15	No		
-DOB	Date	10	No		
-Salary	Int	10	No		
-Build_no	Varchar 	10	No		hostel.Build_no
+ATTRIBUTES |	DATA TYPE	| SIZE | 	NULL |	PRIMARY KEY |	FOREIGN KEY
+--- | --- | --- | --- | --- | ---
+Memp_name |	Text |	20 |	No		
+Memp_id	| Varchar |	50 |	No |	Yes	
+Ph_no |	Int |	15 |	No		
+DOB |	Date |	10 |	No		
+Salary |	Int |	10 |	No		
+Build_no |	Varchar |	10	| No | |	hostel.Build_no
 
 
 
 ENTITY NAMES	Room_entry
-ATTRIBUTES	DATA TYPE	SIZE	NULL	PRIMARY KEY	FOREIGN KEY
-Room_id	Room_id	20	No	Yes	
-Capacity	Int 	5	No		
-Build_no	Varchar 	20	No		hostel.Build_no
+ATTRIBUTES |	DATA TYPE |	SIZE |	NULL |	PRIMARY KEY |	FOREIGN KEY
+--- | --- | --- | --- | --- | ---
+Room_id |	20 |	No |	Yes	
+Capacity |	Int  |	5 |	No |		
+Build_no |	Varchar  |	20 |	No | |		hostel.Build_no
 
 
 
 ENTITY NAMES	Student_entry
 DESCRIPTION	Students will be in hostel or hostel has students.
-ATTRIBUTES	DATA TYPE	SIZE	NULL	PRIMARY KEY	FOREIGN KEY
-S_name	Text 	55	No		
-sid	Varchar 	20	No	Yes	
-Father_name	Text	55	No		
-Department	Text	55	No		
-Ph_no	Int	20	No		
-Gender	Text 	10	No		
-Age	Int	5	No		
-DOB	Date	10	No		
-Email	Varchar	55	No		
-Room_id	Varchar	20	No		Room_entry.room_id
-Food_type	Text	10	No		
-Build_no	Varchar	20	No		hostel.Build_no
-Room_type	Text	10	No		
-Fee	Int	20	No		
+ATTRIBUTES	| DATA TYPE | 	SIZE | 	NULL | 	PRIMARY KEY |	FOREIGN KEY
+--- | --- | --- | --- | --- | ---
+S_name |	Text 	| 55 |	No		
+sid	| Varchar 	| 20	| No |	Yes	
+Father_name |	Text |	55 |	No		
+Department |	Text |	55 |	No		
+Ph_no |	Int	| 20 |	No		
+Gender |	Text 	| 10 |	No		
+Age |	Int |	5 |	No		
+DOB |	Date |	10 |	No		
+Email |	Varchar |	55 |	No		
+Room_id |	Varchar	| 20 |	No | |		Room_entry.room_id
+Food_type |	Text	| 10 |	No		
+Build_no |	Varchar	| 20 |	No | |		hostel.Build_no
+Room_type |	Text	| 10 |	No		
+Fee |	Int	| 20	| No		
 
 
 
 ENTITY NAMES	Visitor
-ATTRIBUTES	DATA TYPE	SIZE	NULL	PRIMARY KEY	FOREIGN KEY
-V_name	Text	55	No 		
-S_name	Text	55	No		
-sid	Varchar	20	No		Student_entry.sid
-V_date	Date	10	No		
-Time_in	Time	6	No		
-Time_out	Time	6	No		
+ATTRIBUTES	| DATA TYPE |	SIZE |	NULL |	PRIMARY KEY |	FOREIGN KEY
+--- | --- | --- | --- | --- | ---
+V_name | 	Text |	55 | 	No 		
+S_name | Text	| 55 |	No		
+sid |	Varchar |	20 | 	No | |		Student_entry.sid
+V_date |	Date	|10 |	No		
+Time_in	| Time	|6 |	No		
+Time_out |	Time	| 6 |	No		
 
 
-RELATIONAL SCHEMA :- 
+**RELATIONAL SCHEMA :-** 
+
+
 ![image](https://user-images.githubusercontent.com/64410018/128169182-be7abf04-4e80-4798-93b1-81c494ee132a.png)
 
 ****Foreign key will be in italic and primary will be in bold****

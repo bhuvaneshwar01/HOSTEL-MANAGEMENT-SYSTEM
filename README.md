@@ -32,6 +32,7 @@ Annual_expense |	Int |	20 |	No | No
 
 ENTITY NAMES	hostel_furniture
 ATTRIBUTES	| DATA TYPE	| SIZE |	PRIMARY KEY |	FOREIGN KEY
+--- | --- | --- | --- | --- 
 Furniture_type	| text |	20	| 		
 Furniture_id	| varchar	 |20 |		|Yes	
 Room_id |	varchar|	20|			| |Room_entry.room_id
